@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ScreenManager",
+            "request": "launch",
+            "mainClass": "cnn.ui.ScreenManager",
+            "projectName": "app",
+            "cwd": "${workspaceFolder}/app",
+            "vmArgs": "-Xmx12G --add-modules=jdk.incubator.vector"
+        },
+        {
+            "type": "java",
+            "name": "Run CNN",
+            "request": "launch",
+            "mainClass": "cnn.Main",
+            "projectName": "app",
+            "cwd": "${workspaceFolder}/app",
+            "vmArgs": "-Xmx12G --add-modules=jdk.incubator.vector"
+        }
+    ]
+}
